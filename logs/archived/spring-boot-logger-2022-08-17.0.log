@@ -1,0 +1,82 @@
+2022-08-17 10:57:27,252 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SendBulkSmsServiceApplication using Java 1.8.0_332 on BONIFACE-PC with PID 8640 (F:\projects\PostBank\sendBulkSmsService\target\classes started by sboniface in F:\projects\PostBank\sendBulkSmsService)
+2022-08-17 10:57:27,252 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-17 10:57:27,305 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\sboniface\.m2\repository\org\tallison\metadata-extractor\2.13.0\metadata-extractor-2.13.0.jar referenced one or more files that do not exist: file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-shaded-6.1.10.jar,file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-6.1.10.jar
+2022-08-17 10:57:27,305 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-17 10:57:27,305 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-17 10:57:28,495 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9190 (http)
+2022-08-17 10:57:28,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9190"]
+2022-08-17 10:57:28,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-08-17 10:57:28,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-17 10:57:28,687 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-17 10:57:28,687 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1382 ms
+2022-08-17 10:57:29,282 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-17 10:57:29,299 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9190"]
+2022-08-17 10:57:29,314 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9190 (http) with context path ''
+2022-08-17 10:57:29,314 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SendBulkSmsServiceApplication in 2.514 seconds (JVM running for 4.078)
+2022-08-17 11:02:04,493 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9190-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 11:02:04,493 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-17 11:02:04,502 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-2] Completed initialization in 9 ms
+2022-08-17 11:11:51,812 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SendBulkSmsServiceApplication using Java 1.8.0_332 on BONIFACE-PC with PID 18608 (F:\projects\PostBank\sendBulkSmsService\target\classes started by sboniface in F:\projects\PostBank\sendBulkSmsService)
+2022-08-17 11:11:51,814 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-17 11:11:51,877 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\sboniface\.m2\repository\org\tallison\metadata-extractor\2.13.0\metadata-extractor-2.13.0.jar referenced one or more files that do not exist: file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-shaded-6.1.10.jar,file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-6.1.10.jar
+2022-08-17 11:11:51,877 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-17 11:11:51,881 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-17 11:11:53,066 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9190 (http)
+2022-08-17 11:11:53,066 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9190"]
+2022-08-17 11:11:53,066 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-08-17 11:11:53,066 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-17 11:11:53,181 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-17 11:11:53,181 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1299 ms
+2022-08-17 11:11:53,766 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-17 11:11:53,782 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9190"]
+2022-08-17 11:11:53,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9190 (http) with context path ''
+2022-08-17 11:11:53,831 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SendBulkSmsServiceApplication in 2.508 seconds (JVM running for 4.184)
+2022-08-17 11:12:20,587 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9190-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 11:12:20,587 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-17 11:12:20,587 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-1] Completed initialization in 0 ms
+2022-08-17 11:12:20,635 INFO com.sammy.sendbulksmsservice.v2.FilesStorageServiceImpl [http-nio-9190-exec-1] file name printed >>..
+2022-08-17 12:14:56,161 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SendBulkSmsServiceApplication using Java 1.8.0_332 on BONIFACE-PC with PID 18464 (F:\projects\PostBank\sendBulkSmsService\target\classes started by sboniface in F:\projects\PostBank\sendBulkSmsService)
+2022-08-17 12:14:56,161 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-17 12:14:56,215 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\sboniface\.m2\repository\org\tallison\metadata-extractor\2.13.0\metadata-extractor-2.13.0.jar referenced one or more files that do not exist: file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-shaded-6.1.10.jar,file:/C:/Users/sboniface/.m2/repository/org/tallison/metadata-extractor/2.13.0/xmpcore-6.1.10.jar
+2022-08-17 12:14:56,215 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-17 12:14:56,215 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-17 12:14:57,415 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9190 (http)
+2022-08-17 12:14:57,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:14:57,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-08-17 12:14:57,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-17 12:14:57,566 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-17 12:14:57,566 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1351 ms
+2022-08-17 12:14:58,150 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-17 12:14:58,166 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:14:58,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9190 (http) with context path ''
+2022-08-17 12:14:58,207 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SendBulkSmsServiceApplication in 2.535 seconds (JVM running for 4.389)
+2022-08-17 12:15:25,147 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9190-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-17 12:15:25,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-08-17 12:15:25,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9190-exec-2] Completed initialization in 0 ms
+2022-08-17 12:15:25,278 INFO com.sammy.sendbulksmsservice.v2.FilesStorageServiceImpl [http-nio-9190-exec-2] file name printed >>..
+2022-08-17 12:16:20,144 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SendBulkSmsServiceApplication using Java 1.8.0_332 on BONIFACE-PC with PID 18464 (F:\projects\PostBank\sendBulkSmsService\target\classes started by sboniface in F:\projects\PostBank\sendBulkSmsService)
+2022-08-17 12:16:20,144 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-17 12:16:20,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9190 (http)
+2022-08-17 12:16:20,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:16:20,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-08-17 12:16:20,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-17 12:16:20,474 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-17 12:16:20,474 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 330 ms
+2022-08-17 12:16:20,550 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-17 12:16:20,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:16:20,569 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9190 (http) with context path ''
+2022-08-17 12:16:20,569 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SendBulkSmsServiceApplication in 0.464 seconds (JVM running for 86.755)
+2022-08-17 12:16:20,586 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-08-17 12:30:19,199 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SendBulkSmsServiceApplication using Java 1.8.0_332 on BONIFACE-PC with PID 18464 (F:\projects\PostBank\sendBulkSmsService\target\classes started by sboniface in F:\projects\PostBank\sendBulkSmsService)
+2022-08-17 12:30:19,199 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-17 12:30:19,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9190 (http)
+2022-08-17 12:30:19,698 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:30:19,698 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-08-17 12:30:19,698 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-17 12:30:19,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-17 12:30:19,732 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 533 ms
+2022-08-17 12:30:19,798 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-17 12:30:19,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9190"]
+2022-08-17 12:30:19,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9190 (http) with context path ''
+2022-08-17 12:30:19,814 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SendBulkSmsServiceApplication in 0.648 seconds (JVM running for 925.99)
+2022-08-17 12:30:19,814 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
