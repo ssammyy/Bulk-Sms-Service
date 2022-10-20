@@ -1,5 +1,6 @@
 package com.sammy.sendbulksmsservice.v2;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.google.gson.JsonObject;
 import lombok.Getter;
 import lombok.Setter;
@@ -14,10 +15,12 @@ import java.util.Date;
 public class UniversalResponse {
     private int status; //200 , 404 - not found , 400 -bad request
     private String message;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Object data;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private JsonObject dataObject;
     private String timestamp;
-    //    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Object metadata;
 
     public UniversalResponse() {
@@ -34,7 +37,6 @@ public class UniversalResponse {
     public UniversalResponse(int status, String message) {
         this.status = status;
         this.message = message;
-        this.data = new ArrayList<>();
         this.timestamp = new Date().toString();
     }
 }

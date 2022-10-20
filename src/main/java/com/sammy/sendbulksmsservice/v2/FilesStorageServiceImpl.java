@@ -56,7 +56,7 @@ public class FilesStorageServiceImpl implements FileStorageService {
             return true;
         boolean bool = f1.mkdir();
         if (bool) {
-            System.out.println("Folder is created successfully");
+            log.info("folder created successfully");
         } else {
             return true;
         }
@@ -64,15 +64,15 @@ public class FilesStorageServiceImpl implements FileStorageService {
     }
 
     @Override
-    public void save(MultipartFile file, String type) {
+    public boolean save(MultipartFile file) {
         try {
-            log.info("file name printed >>..", file.getOriginalFilename());
-
             filePathCreator();
             Files.copy(file.getInputStream(), this.root.resolve(fileName), StandardCopyOption.REPLACE_EXISTING);
         } catch (Exception e) {
-            throw new RuntimeException("Could not store the file. Error: " + e.getMessage());
+            log.info("==> * Failed to save the file for execution.");
+            return false;
         }
+        return true;
     }
 
     @Override
